@@ -1,0 +1,33 @@
+{
+  "name": "developersconnect",
+  "version": "1.0.0",
+  "description": "initial node server files",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Adegelu Oluwatobi",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.6",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adeniyi085/developersconnect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Adeniyi085/developersconnect/issues"
+  },
+  "homepage": "https://github.com/Adeniyi085/developersconnect#readme"
+}
